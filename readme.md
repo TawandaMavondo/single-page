@@ -1,1 +1,1 @@
-This is my project which am learning bootsrap and javascriptgit
+This is my project which am learning bootsrap and javascript
