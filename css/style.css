@@ -1,9 +1,9 @@
 body{
     box-sizing: border-box;
-    background-image: url("../images/background.jpg");
+    /* background-image: url("../images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:center; 
+    background-position:center;  */
     height: auto;
 }
 #navbar-1{
@@ -33,3 +33,18 @@ div[class="card"]{
     width: 90%;
     margin: 1.5em auto;
 }
+
+/* hover zoom on image 
+ */
+div[class="card"]:hover{
+    box-shadow:-1px 9px 40px -12px  rgba(0, 0, 0, 0.95)
+  }
+  .inner{
+    overflow: hidden;
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  }
+  .inner:hover img{
+    transform: scale(1.5);
+  }
