@@ -10,6 +10,7 @@ body{
     background-image: url("../images/mountains.jpeg");
 
 }
+
 .about{
     background: url("../images/mountains.jpeg") no-repeat 50% 50%;
     background-size: cover;

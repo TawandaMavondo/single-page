@@ -1,0 +1,12 @@
+
+@media (min-width:769px){
+    div[class="card"]{
+        width: 100%;
+    }
+    #projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+      
+    }
+}
