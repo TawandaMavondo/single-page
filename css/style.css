@@ -5,16 +5,27 @@ body{
     background-repeat: no-repeat;
     background-position:center;  */
     height: auto;
+    background-color:#fbfafae3; 
+}
+#get-started-btn{
+    padding: 20px;
+}
+#get-started-btn:hover{
+    box-shadow:-1px 9px 40px -12px  rgba(0, 0, 0, 0.8);
 }
 #navbar-1{
     background-image: url("../images/mountains.jpeg");
-
+    box-shadow:-1px 9px 40px -12px  rgba(0, 0, 0, 0.9);
 }
 
 .about{
-    background: url("../images/mountains.jpeg") no-repeat 50% 50%;
+    background-image: url("../images/mountains.jpeg");
+    /* background-image: linear-gradient(rgba(255, 255, 255,0.4),rgba(185, 171, 171, 0.4)); */
+    background-repeat: no-repeat;
+    opacity: 0.9;
     background-size: cover;
     background-position: bottom ;
+    box-shadow:-1px 9px 40px -12px  rgba(0, 0, 0, 0.8);
     height: 100vh;
 }
 #content-about{
