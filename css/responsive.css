@@ -9,4 +9,15 @@
         grid-gap: 1em;
       
     }
+
+    /* contact us section*/
+  .contact-us{
+    height: 30vh;
+    background-color: #111111;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+  }
+
 }
